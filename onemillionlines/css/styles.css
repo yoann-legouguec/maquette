@@ -1,0 +1,20 @@
+
+header {
+
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  flex-direction : row-reverse;
+}
+
+nav ul li {
+  display:inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
