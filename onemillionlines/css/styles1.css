@@ -1,22 +1,15 @@
-
+/*général*/
 h1 {
   color: white;
 }
 
-
+/*En tête (header)*/
 header{
   background-color:black;
 }
 
-#hero{
-  background-image: url("../images/hero-image.jpg");
-  height:600px;
-  width: 100%;
-}
-
 nav{
 border: 1px solid yellow;
-
 }
 
 nav ul li{
@@ -24,10 +17,33 @@ nav ul li{
   display:inline-block;
   float:right;
 }
+
 nav ul li a {
   border: 1px solid green;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+}
 
+/*Parti image (hero)*/
+section{
+  background-image: url("../images/hero-image.jpg");
+  height:618px;
+  width: 100%;
+  text-align: center;
+}
+
+section h1{
+  padding-top: 60px;
+  font-size: 3em;
+  border: 2px solid green;
+}
+section p{
+color: white;
+font-size: 1em;
+border: 1px solid red;
+}
+
+p span{
+  font-weight: bold;
 }
